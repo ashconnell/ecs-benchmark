@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { Worker } from "node:worker_threads";
 
 const LIBRARIES = [
+  'hecs',
   "becsy",
   "bitecs",
   "ecsy",
